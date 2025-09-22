@@ -1,6 +1,6 @@
 # Ex03 Time Table
 ## Date:
-
+22.09.2025
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -24,10 +24,121 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+<head>
+<title>slot Timetable</title>    
+</head>
+<body>
+<center>
+<img src="/static/logo.png" height="100" width="540">
+</center>
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="10" border="7" bgcolor="white">
+<caption><b>SLOT TIME TABLE -ROSHINI A(212224230233)</b></caption>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+<th bgcolor="yellow">Saturday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td>UI AND UX DESIGN</td>
+<td>-</td>
+<td>PYTHON</td>
+<td>-</td>
+<td>STATISTICS</td>
+<td>PYTHON</td>
 
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>EDM</td>
+<td>-</td>
+<td>WEB</td>
+<td>BEEE</td>
+<td>CN</td>
+<td>EDM</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="6" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td>WED</td>
+<td>-</td>
+<td>MENTOR</td>
+<td>UI AND UX DESIGN</td>
+<td>BEEE</td>
+<td>CN</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td>STATISTICS</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+
+
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="3" cellpadding="4" border="2">
+<tr align="center">
+<th>s. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals of Web Appilication Development(WEB)</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19CS549</td>
+<td>UI and UX Design</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19AI302</td>
+<td>Engineering Design and Modelling(EDM)</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center"> 19MA211</td>
+<td>Statistics and Numerical Methods(STATISTICS)</th>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19AI301</td>
+<td>Python Programming(PYTHON)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19CS406</td>
+<td>Computer Networks(CN)</td>
+</tr>
+<tr>
+<td align="center">7.</td>
+<td align="center">19EE305</td>
+<td>Basic Electrical,Electronics and Measurement Engineering(BEEE)<td>
+</tr>
+</table>
+</body>
+</html>
+```
 
 ## OUTPUT
 
+![alt text](<Screenshot 2025-09-22 132412.png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
